@@ -1,3 +1,86 @@
 #ttle {
     color: red;
 }
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items > ul > li {
+  padding: 0px 30px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.header {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.logoContainer img {
+    width: 80px;
+    padding: 15px;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+.resatCard img {
+    width: 200px;
+    height: 150px;
+}
+.resatCard {
+    cursor: pointer;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    margin-right: 30px;
+}.restaCards {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.mCusines {
+    width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}button.filter_btn {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}button.checkIN_btn {
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+button.checkIN_btn:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+.shimmer_Cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.shimmer_Card {
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+    background-color: #f0f0f0;
+}input.input_search {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}.filter_btnSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userCard {
+    border: 1px solid #000;
+}
