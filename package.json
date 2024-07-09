@@ -1,0 +1,38 @@
+{
+  "name": "nreact",
+  "version": "1.0.0",
+  "description": "This is My Ract by AJ",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abduljaffarshaik/NReact.git"
+  },
+  "keywords": [
+    "React",
+    "NReact",
+    "Jaffar"
+  ],
+  "author": "Abdul Jaffar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abduljaffarshaik/NReact/issues"
+  },
+  "homepage": "https://github.com/abduljaffarshaik/NReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "prettier": "3.3.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}
